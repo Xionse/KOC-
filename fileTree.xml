@@ -1,0 +1,54 @@
+.
+├── README.md
+├── kotlin
+│   ├── compiler
+│   │   └── KotlinCompiler.kt
+│   └── server
+│       ├── Server.kt
+│       ├── routes
+│       │   ├── HomeRoute.kt
+│       │   ├── CompileRoute.kt
+│       │   └── SaveRoute.kt
+│       └── util
+│           ├── FileUtils.kt
+│           └── StringUtils.kt
+├── resources
+│   ├── css
+│   │   ├── main.css
+│   │   └── syntax.css
+│   ├── html
+│   │   └── index.html
+│   └── js
+│       ├── main.js
+│       ├── ace
+│       └── jquery
+├── .gitignore
+└── build.gradle
+
+
+This file tree includes the following components:
+
+kotlin: directory for Kotlin source code
+compiler: directory for compiler-related classes
+KotlinCompiler.kt: a class that handles the compilation of Kotlin code
+server: directory for server-related classes
+Server.kt: the main server class
+routes: directory for route-handling classes
+HomeRoute.kt: handles requests to the homepage
+CompileRoute.kt: handles requests to compile Kotlin code
+SaveRoute.kt: handles requests to save code snippets
+util: directory for utility classes
+FileUtils.kt: utility methods for reading and writing files
+StringUtils.kt: utility methods for manipulating strings
+resources: directory for static resources (HTML, CSS, JavaScript)
+css: directory for CSS files
+main.css: main stylesheet for the web application
+syntax.css: styles for syntax highlighting in the code editor
+html: directory for HTML files
+index.html: the main HTML file for the web application
+js: directory for JavaScript files
+main.js: main JavaScript file for the web application
+ace: directory for the Ace code editor library
+jquery: directory for the jQuery library
+.gitignore: a file containing patterns for files that should be ignored by Git
+build.gradle: a build configuration file for the Gradle build system
