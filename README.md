@@ -1,5 +1,5 @@
 # KOC - **Kotlin Online Compiler** 
-A web-based Kotlin compiler that allows users to write, compile, and run Kotlin code from their web browser.
+A web-based **Kotlin compiler**  that allows users to write, compile, and run Kotlin code from their web browser.
 
 ## Features
 * Code editor with syntax highlighting and automatic indentation
